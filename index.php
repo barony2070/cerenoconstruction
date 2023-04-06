@@ -1,12 +1,28 @@
 <?php
     include 'include/header.php';
  ?>
-        <section class="hero-section overlay">
+        <section class="hero-section d-none d-lg-block overlay">
             <div class="container">
                 <div class="hero-inner">
-                    <h2 style="color: white"><span class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">Dream It,</span><br>
+                    <h1 style="color: white; margin-top: 100px">
+                        <span class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">Dream It,</span><br>
                      <span class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">We Build It.</span><br>
                    <a href="contact.php" class="theme-btn wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">Make A Request <i class="fas fa-arrow-right"></i></a>
+                    </h1>
+                </div>
+            </div>
+        </section>
+
+        <!--show on small devices-->
+        <section class="hero-section-small d-lg-none d-sm-block overlay ">
+            <div class="container">
+                <div class="hero-inner-small">
+                    <h1>
+                        <span class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">Dream It,</span><br>
+                        <span class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">We Build It.</span><br>
+                    </h1>
+                    <a href="contact.php" class="theme-btn wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">Make A Request <i class="fas fa-arrow-right"></i></a>
+
                 </div>
             </div>
         </section>
